@@ -56,15 +56,26 @@ header nav ul li a {
 
 .Grids-menu {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto auto auto;
   justify-items: center;
   margin: 2em;
 }
 .Grids-menu img {
-  width: 50%;
+  width: 63%;
 }
 .Grids-menu .imgParrilla {
-  width: 53%;
+  width: 65%;
+}
+.Grids-menu .Horarios {
+  display: flex;
+  justify-content: center;
+}
+.Grids-menu .Horarios table tr th {
+  color: orange;
+}
+.Grids-menu .Horarios table tr td span {
+  color: #000;
 }
 
 #Contactanos {
@@ -80,6 +91,17 @@ header nav ul li a {
   text-align: center;
 }
 
+@media (max-width: 768px) {
+  .Grids-menu img {
+    width: 94%;
+  }
+  .Grids-menu .Horarios {
+    display: flex;
+  }
+  .Grids-menu .imgParrilla {
+    width: 100%;
+  }
+}
 * {
   padding: 0;
   margin: 0;

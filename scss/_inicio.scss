@@ -1,13 +1,31 @@
 .Grids-menu {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto auto;
     justify-items: center;
     margin: 2em;
     img {
-        width: 50%;
+        width: 63%;
     }
     .imgParrilla{
-        width: 53%;
+        width: 65%;
     }
+    .Horarios{
+        display: flex;
+        justify-content: center;
+        table {
+            tr {
+                th {
+                    color: orange;
+                }
+                td {
+                    span {
+                        color: #000;
+                    }
+                }
+            }
+        }
+    }
+
 
 }
