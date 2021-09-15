@@ -1,0 +1,24 @@
+#Galería {
+    h3 {
+        text-align: center;
+        font-size: 2.5em;
+        font-family: 'Dancing Script', cursive;
+        color: #fff;
+        background-color: #ee8800;
+        margin: 1em;
+        margin-bottom: 0;
+    }
+    #carouselExampleIndicators {
+        margin: 2em;
+        .img-1 {
+            width: 80%;
+        }
+        .img-2 {
+            width: 67%;
+        }
+        .img-3 {
+            width: 62%;
+        }
+    }
+    
+}

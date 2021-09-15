@@ -5,8 +5,10 @@
     justify-content: center;
     height: 57em;
     margin: 2em;
+    background-image: url(../Imagenes/prueba.jpg);
+    background-size: cover;
     .grids-historia {
-        background-color: #F6B285;
+        // background-color: #F6B285;
         display: grid;
         grid-template-rows: auto auto;
         width: 50%;
