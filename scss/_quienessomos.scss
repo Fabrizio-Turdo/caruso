@@ -1,21 +1,27 @@
 #Quiénessomos {
     display: flex;
+    flex-wrap: wrap;
+    align-content: center;
     justify-content: center;
-}
-.grids-historia {
-    background-color: #F6B285;
-    display: grid;
-    grid-template-rows: auto auto;
-    width: 50%;
-    h3 {
-        text-align: center;
-        font-size: 3em;
-        color: #fff;
+    height: 57em;
+    margin: 2em;
+    .grids-historia {
+        background-color: #F6B285;
+        display: grid;
+        grid-template-rows: auto auto;
+        width: 50%;
+        height: 50%;
+        h3 {
+            text-align: center;
+            font-size: 3em;
+            color: #fff;
+        }
+        .quienesSomos {
+            p {
+                text-align: center;
+                color: #fff;
+            }
+        }
     }
 }
-.quienesSomos {
-    p {
-        text-align: center;
-        color: #fff;
-    }
-}
+

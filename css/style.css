@@ -16,7 +16,7 @@ header div img {
 }
 header nav {
   width: 100%;
-  background-color: #F6B285;
+  background-color: #EE8800;
   text-align: center;
 }
 header nav ul {
@@ -34,22 +34,25 @@ header nav ul li a {
 
 #Quiénessomos {
   display: flex;
+  flex-wrap: wrap;
+  align-content: center;
   justify-content: center;
+  height: 57em;
+  margin: 2em;
 }
-
-.grids-historia {
+#Quiénessomos .grids-historia {
   background-color: #F6B285;
   display: grid;
   grid-template-rows: auto auto;
   width: 50%;
+  height: 50%;
 }
-.grids-historia h3 {
+#Quiénessomos .grids-historia h3 {
   text-align: center;
   font-size: 3em;
   color: #fff;
 }
-
-.quienesSomos p {
+#Quiénessomos .grids-historia .quienesSomos p {
   text-align: center;
   color: #fff;
 }
