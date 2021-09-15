@@ -70,9 +70,12 @@ header nav ul li a {
 .Grids-menu .Horarios {
   display: flex;
   justify-content: center;
+  width: 180%;
+  background-color: #f6b285;
+  border: 2px solid;
 }
 .Grids-menu .Horarios table tr th {
-  color: orange;
+  color: white;
 }
 .Grids-menu .Horarios table tr td span {
   color: #000;
