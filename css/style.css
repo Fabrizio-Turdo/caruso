@@ -77,10 +77,12 @@ header nav ul li a {
 }
 .Grids-menu .Horarios {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  width: 180%;
+}
+.Grids-menu .Horarios table {
+  border: 2px solid #000;
   background-color: #ee8800;
-  border: 2px solid;
 }
 .Grids-menu .Horarios table tr th {
   color: white;
@@ -90,16 +92,40 @@ header nav ul li a {
 }
 
 #Contactanos {
-  background-color: #f4a2b4;
+  background-color: #EE8800;
+  display: grid;
+  grid-template-columns: auto auto;
+  height: 40em;
+  margin: 2em;
 }
 #Contactanos .Google-maps {
-  display: grid;
-  grid-template-rows: auto auto;
-  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 #Contactanos .Google-maps h3 {
   color: #fff;
   text-align: center;
+}
+#Contactanos .Google-maps iframe {
+  width: 100%;
+  height: 100%;
+  padding: 2em;
+}
+#Contactanos .Contacto {
+  display: grid;
+  justify-items: center;
+}
+#Contactanos .Contacto .Wpp {
+  display: flex;
+  flex-direction: column;
+}
+#Contactanos .Contacto .Wpp .basic {
+  width: 100%;
+}
+#Contactanos .Contacto .Wpp .texto {
+  height: 20em;
+  width: 100%;
 }
 
 @media (max-width: 768px) {
@@ -111,6 +137,13 @@ header nav ul li a {
   }
   .Grids-menu .imgParrilla {
     width: 100%;
+  }
+
+  .Google-maps {
+    justify-items: center;
+  }
+  .Google-maps iframe {
+    width: 50%;
   }
 }
 #Galería {
@@ -157,6 +190,27 @@ header nav ul li a {
 
 .my-float {
   margin-top: 16px;
+}
+
+footer h3 {
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  color: #000;
+}
+footer .footer-grid {
+  background-color: #F6E4D8;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+footer a {
+  text-decoration: none;
+}
+footer a img {
+  width: 5%;
+}
+footer .redes {
+  display: flex;
+  justify-content: center;
 }
 
 * {
