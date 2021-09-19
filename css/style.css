@@ -56,10 +56,13 @@ header nav ul li a {
   text-align: center;
   font-size: 3em;
   color: #fff;
+  font-family: "Playfair Display", serif;
 }
 #Quiénessomos .grids-historia .quienesSomos p {
   text-align: center;
   color: #fff;
+  font-family: "Playfair Display", serif;
+  background-color: #000;
 }
 
 .Grids-menu {
@@ -129,21 +132,47 @@ header nav ul li a {
 }
 
 @media (max-width: 768px) {
-  .Grids-menu img {
-    width: 94%;
+  header div img {
+    width: 30%;
   }
-  .Grids-menu .Horarios {
+  header nav ul {
     display: flex;
+    flex-direction: column;
+  }
+
+  .Grids-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Grids-menu .imgCarta {
+    width: 100%;
   }
   .Grids-menu .imgParrilla {
     width: 100%;
   }
 
-  .Google-maps {
+  #Quiénessomos {
+    background-size: auto;
+  }
+
+  #Contactanos {
+    display: flex;
+    flex-direction: column;
+    height: 55em;
+  }
+  #Contactanos .Google-maps {
     justify-items: center;
   }
-  .Google-maps iframe {
-    width: 50%;
+  #Contactanos .Google-maps iframe {
+    width: 100%;
+  }
+
+  footer {
+    background-color: #ee8800;
+  }
+  footer div a img {
+    width: 20%;
   }
 }
 #Galería {

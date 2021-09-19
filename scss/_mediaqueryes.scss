@@ -1,23 +1,61 @@
-// Inicio
-@media (max-width: 768px){
-    .Grids-menu {
-        img {
-            width: 94%;
-        }
-        .Horarios {
-            display: flex;
-        }
 
+@media (max-width: 768px){
+    // Header
+    header {
+        div {
+            img {
+                width: 30%;
+            }
+        }
+        nav {
+            ul {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
+      
+    // Inicio
+    .Grids-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .imgCarta {
+            width: 100%;
+        }
         .imgParrilla {
             width: 100%;
         }
     }
-    // Contactanos
-    .Google-maps {
-        justify-items: center;
-        iframe {
-            width: 50%;
+    // Un poco de historia
+    #Quiénessomos {
+        background-size: auto;
 
+    }
+
+    // Contactanos
+    #Contactanos {
+        display: flex;
+        flex-direction: column;
+        height: 55em;
+        .Google-maps {
+            justify-items: center;
+            iframe {
+                width: 100%;
+            }
+        }
+    }
+    // Footer
+    footer {
+        background-color: #ee8800;
+       
+        div {
+
+            a {
+                img {
+                    width: 20%;
+                }
+            }
         }
     }
    
