@@ -146,9 +146,6 @@ header nav ul li a {
     flex-direction: column;
     align-items: center;
   }
-  .Grids-menu .Horarios {
-    margin: 2em;
-  }
   .Grids-menu .imgCarta {
     width: 100%;
   }
@@ -170,12 +167,6 @@ header nav ul li a {
   }
   #Contactanos .Google-maps iframe {
     width: 100%;
-  }
-
-  #testimonios {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
   }
 
   footer {
@@ -252,15 +243,6 @@ footer .redes {
   justify-content: center;
 }
 
-#testimonios {
-  display: flex;
-  margin: 2em;
-  justify-content: center;
-}
-#testimonios div {
-  padding: 1em;
-}
-
 * {
   padding: 0;
   margin: 0;
@@ -268,4 +250,4 @@ footer .redes {
   list-style: none;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=css.style.css.map */
